@@ -1,0 +1,19 @@
+{
+  "name": "graphql-automation-cypress",
+  "version": "1.0.0",
+  "description": "Automation of GraphQL API using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "graphql, test, cypress, api"
+  },
+  "keywords": [
+    "graphql",
+    "api",
+    "cypress"
+  ],
+  "author": "Rajiv Singh",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.5.0"
+  }
+}
