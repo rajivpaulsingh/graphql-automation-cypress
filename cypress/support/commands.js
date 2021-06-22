@@ -12,6 +12,7 @@ Cypress.Commands.add('graphqlRequest', actionName => {
         },
         failOnStatusCode: false
     }).then(response => {
+        console.log(response.body)
         const countryName = response.body.data.continent.countries[2].name
         return countryName
     })
